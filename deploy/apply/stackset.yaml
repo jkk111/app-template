@@ -5,7 +5,7 @@ metadata:
   version: v$VERSION
 spec:
   ingress:
-    hosts: ['{APPLICATION}.ingress.john-kevin.me']
+    hosts: ['{APPLICATION_NAME}.ingress.john-kevin.me']
     backendPort: 8080
   stackLifecycle:
     scaledownTTLSeconds: 300
