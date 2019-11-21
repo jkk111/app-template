@@ -7,7 +7,7 @@ const app = createApp();
 
 app.get('/', (req, res) => {
   res.json({
-    'Hello World': 'This is a test',
+    message: 'Hello World',
   });
 });
 
